@@ -1,7 +1,7 @@
-type TDynamicInteger = array of Integer;   // 動的配列
+type TDynamicInteger = array of Integer;
 
-procedure Test1(aDynamic: array of Integer);  // オープン配列
-procedure Test2(aDynamic: TDynamic);  // 動的配列
+procedure Test1(aDynamic: array of Integer);
+procedure Test2(aDynamic: TDynamic);
 
 function GetDynamicArray(const aDynamicArray: array of Integer): TDynamicInteger;
 var a: Integer;
