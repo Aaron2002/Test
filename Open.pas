@@ -1,5 +1,3 @@
-const kSets = [1, 2, 3];
-
 type TDynamic = array of Integer;   // 動的配列
 
 procedure Test1(aDynamic: array of Integer);  // オープン配列
