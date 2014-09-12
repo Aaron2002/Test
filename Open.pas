@@ -1,11 +1,11 @@
-unit Test;
+ï»¿unit Test;
 
 interface
 
-type TDynamicInteger = array of Integer;   // “®“I”z—ñ
+type TDynamicInteger = array of Integer;   // å‹•çš„é…åˆ—
 
-procedure Test1(aDynamic: array of Integer);  // ƒI[ƒvƒ“”z—ñ
-procedure Test2(aDynamic: TDynamic);  // “®“I”z—ñ
+procedure Test1(aDynamic: array of Integer);  // ã‚ªãƒ¼ãƒ—ãƒ³é…åˆ—
+procedure Test2(aDynamic: TDynamic);  // å‹•çš„é…åˆ—
 
 implementation
 
