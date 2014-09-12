@@ -1,4 +1,4 @@
-type TDynamic = array of Integer;   // 動的配列
+type TDynamicInteger = array of Integer;   // 動的配列
 
 procedure Test1(aDynamic: array of Integer);  // オープン配列
 procedure Test2(aDynamic: TDynamic);  // 動的配列
