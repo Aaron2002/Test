@@ -1,8 +1,5 @@
 type TDynamicInteger = array of Integer;
 
-procedure Test1(aDynamic: array of Integer);
-procedure Test2(aDynamic: TDynamic);
-
 function GetDynamicArray(const aDynamicArray: array of Integer): TDynamicInteger;
 var a: Integer;
     d: TDynamicInteger;
