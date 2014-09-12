@@ -2,19 +2,16 @@
 
 interface
 
-type TDynamicInteger = array of Integer;   // 動的配列
-
-procedure Test1(aDynamic: array of Integer);  // オープン配列
-procedure Test2(aDynamic: TDynamic);  // 動的配列
+type TDynamicInteger = array of Integer;   // “®“I”z—ñ
 
 implementation
 
-function GetDynamicArray(const aDynamicArray: TDynamicInteger): TDynamicInteger;
+function GetDynamicArray(const aDynamicArray: array of Integer): TDynamicInteger;
 var a: Integer;
     d: TDynamicInteger;
 begin
   SetLength(d, High(aDynamicArray) + 1);
-  for a := Low(aDynamicArray) to High(aDynamicArray) do d[a] := aDynamicArray[a];
+  for a := 0 to High(aDynamicArray) do d[a] := aDynamicArray[a];
   GetDynamicArray := d;
 end;
 
