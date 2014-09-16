@@ -1,8 +1,8 @@
-﻿unit Test;
+unit Test;
 
 interface
 
-type TDynamicInteger = array of Integer;   // “®“I”z—ñ
+type TDynamicInteger = array of Integer;   // 動的に変更
 
 implementation
 
